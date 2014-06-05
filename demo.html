@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Tabs demo</title>
+        <link rel="stylesheet" href="tabletabs.css">
+    </head>
+    <body>
+        <table class="table table-hover table-tabs">
+            <thead>
+                <tr>
+                    <th><a href="#" class="tab-control">first tab</a></th>
+                    <th><a href="#" class="tab-control">second tab</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        First tab content
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        Second tab content
+                </tr>
+            </tbody>
+            </tbody>
+        </table>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="tabletabs.js"></script>
+    <script>$('.table-tabs').tableTabs();</script>
+    </body>
+</html>
